@@ -1,3 +1,7 @@
+function continueGame() {}
+
 function play() {
-  console.log("play Now");
+  hideElements("home-section");
+  showElementsById("playground-section");
+  continueGame();
 }
